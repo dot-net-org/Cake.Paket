@@ -1,0 +1,1198 @@
+repo_name: dot-net-org/Cake.Paket
+report_id: 1e3701de24c8d164eeeb811fc0a1e6bf
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-04T12:55:34+00:00'
+requested_by: marcinsmialek
+provider: github
+branch: master
+detected_tools_count: 85
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket
+  detection_source: Repo Metadata
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/Source/Cake.Paket.UnitTests/Cake.Paket.UnitTests.csproj
+  detection_source: Source/Cake.Paket.UnitTests/Cake.Paket.UnitTests.csproj
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/Source/Cake.Paket.Addin/Cake.Paket.Addin.csproj
+  detection_source: Source/Cake.Paket.UnitTests/Cake.Paket.UnitTests.csproj
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Larz White
+  last_updated_on: 2016-11-04 20:52:59.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket
+  detection_source: Repo Metadata
+- name: Cake.Core
+  description: The Cake core library
+  package_url: https://www.nuget.org/Cake.Core
+  version: 0.34.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13145/default_8ec8443385d582f19f93b79f0dcf69f422e58967.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Castle.Core
+  description: Castle Core
+  package_url: https://www.nuget.org/Castle.Core
+  version: '4.4'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12886/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 4.19.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.CSharp
+  description: Provides support for compilation and code generation, including dynamic,
+    using the C# language
+  package_url: https://www.nuget.org/Microsoft.CSharp
+  version: '4.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12845/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.DotNet.PlatformAbstractions
+  description: Abstractions for making code that uses file system and environment
+    testable
+  package_url: https://www.nuget.org/Microsoft.DotNet.PlatformAbstractions
+  version: '2.1'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13559/default_1a07a0db93c46d1d55ade89a05ea4821466fe3fa.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.Extensions.DependencyModel
+  description: Abstractions for reading `.deps` files
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyModel
+  version: '2.1'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12941/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.NETCore.Platforms
+  description: Provides runtime information required to resolve target framework,
+    platform, and runtime specific implementations of .NETCore packages
+  package_url: https://www.nuget.org/Microsoft.NETCore.Platforms
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12907/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.NETCore.Targets
+  description: 'Provides supporting infrastructure for portable projects: support
+    identifiers that define framework and runtime for support targets and packages
+    that reference the minimum suppo...'
+  package_url: https://www.nuget.org/Microsoft.NETCore.Targets
+  version: '2.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13376/default_4365d404b4980fe62927eb339d7814e74037cd43.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.Win32.Primitives
+  description: Provides common types for Win32-based libraries
+  package_url: https://www.nuget.org/Microsoft.Win32.Primitives
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13149/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Microsoft.Win32.Registry
+  description: Provides support for accessing and modifying the Windows Registry
+  package_url: https://www.nuget.org/Microsoft.Win32.Registry
+  version: '4.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13050/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NETStandard.Library
+  description: A set of standard .NET APIs that are prescribed to be used and supported
+    together
+  package_url: https://www.nuget.org/NETStandard.Library
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12843/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NSubstitute
+  description: NSubstitute is a friendly substitute for .NET mocking libraries
+  package_url: https://www.nuget.org/NSubstitute
+  version: 4.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13290/default_f1d03070d16050375185746648c3b260664eace4.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 12.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+  vulnerabilities:
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: NuGet.Common
+  description: NuGet client library
+  package_url: https://www.nuget.org/NuGet.Common
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14138/default_8e58497bceb40bbdf1e0868bbad4bf5536a4c01a.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+  vulnerabilities:
+  - name: NuGet Client Remote Code Execution Vulnerability
+    cve_id: CVE-2023-29337
+    cve_url: https://github.com/advisories/GHSA-6qmf-mmc7-6c2p
+    detected_date: Jun 15
+    severity: high
+    first_patched: 5.11.5
+- name: NuGet.Configuration
+  description: NuGet's client configuration settings implementation
+  package_url: https://www.nuget.org/NuGet.Configuration
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13732/default_1ec7b75e4d233f940c213992649575a79a936406.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NuGet.Frameworks
+  description: The understanding of target frameworks for NuGet.Packaging
+  package_url: https://www.nuget.org/NuGet.Frameworks
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13889/default_5b0d89659f8ef29e072f4f056edfe6596b2feb77.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NuGet.Packaging
+  description: NuGet's implementation for reading nupkg package and nuspec package
+    specification files
+  package_url: https://www.nuget.org/NuGet.Packaging
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13476/default_9bed24fda7c43823a3e1a93400ac800e54f4524c.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NuGet.Resolver
+  description: NuGet's dependency resolver within the NuGet.Packaging package
+  package_url: https://www.nuget.org/NuGet.Resolver
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14635/default_b9e7dc24a5b92cbe3ef784f66d8d93f64d652976.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: NuGet.Versioning
+  description: NuGet's implementation of Semantic Versioning
+  package_url: https://www.nuget.org/NuGet.Versioning
+  version: '5.2'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13532/default_96764b6f9c3f0e632eb68cb4bd063b080ee3b713.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: OpenCover
+  description: An open source code coverage tool
+  package_url: https://www.nuget.org/OpenCover
+  version: 4.7.922
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13755/default_38064b97bfe17b99e14fb334e84122134ad69688.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: StyleCop.Analyzers
+  description: An implementation of StyleCop's rules using Roslyn analyzers and code
+    fixes
+  package_url: https://www.nuget.org/StyleCop.Analyzers
+  version: 1.1.118
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12996/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.AppContext
+  description: Provides the System.AppContext class, which allows access to the BaseDirectory
+    property and other application specific data
+  package_url: https://www.nuget.org/System.AppContext
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13144/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Buffers
+  description: Provides resource pooling of any type for performance-critical applications
+    that allocate and deallocate objects frequently
+  package_url: https://www.nuget.org/System.Buffers
+  version: '4.5'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13038/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Collections
+  description: Provides classes that define generic collections
+  package_url: https://www.nuget.org/System.Collections
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12855/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Collections.NonGeneric
+  description: Provides classes that define older non-generic collections of objects,
+    such as lists, queues, hash tables and dictionaries
+  package_url: https://www.nuget.org/System.Collections.NonGeneric
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13018/default_82fb13e12684b07ef964d86ffaca5381cd113e32.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Collections.Specialized
+  description: Provides older specialized non-generic collections; for example, a
+    linked list dictionary, a bit vector, and collections that contain only strings
+  package_url: https://www.nuget.org/System.Collections.Specialized
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13025/default_79c0a8d9add56bcf90325ea0ad034f66b38d8dd7.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.ComponentModel
+  description: Provides interfaces for the editing and change tracking of objects
+    used as data sources
+  package_url: https://www.nuget.org/System.ComponentModel
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12963/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.ComponentModel.Primitives
+  description: Provides interfaces that are used to implement the run-time and design-time
+    behavior of components
+  package_url: https://www.nuget.org/System.ComponentModel.Primitives
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13110/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.ComponentModel.TypeConverter
+  description: Provides the System.ComponentModel.TypeConverter class, which represents
+    a unified way of converting types of values to other types
+  package_url: https://www.nuget.org/System.ComponentModel.TypeConverter
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12989/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Diagnostics.Debug
+  description: Provides classes and attributes that allows basic interaction with
+    a debugger
+  package_url: https://www.nuget.org/System.Diagnostics.Debug
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12887/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Diagnostics.Process
+  description: Provides the System.Diagnostics.Process class, which allows interaction
+    with local and remote processes
+  package_url: https://www.nuget.org/System.Diagnostics.Process
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13003/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Diagnostics.TraceSource
+  description: Provides classes that help you trace the execution of your code
+  package_url: https://www.nuget.org/System.Diagnostics.TraceSource
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13051/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Dynamic.Runtime
+  description: Provides classes and interfaces that support the Dynamic Language Runtime
+  package_url: https://www.nuget.org/System.Dynamic.Runtime
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12921/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Globalization
+  description: Provides classes that define culture-related information
+  package_url: https://www.nuget.org/System.Globalization
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12895/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Globalization.Extensions
+  description: Provides classes for performing Unicode string normalization, culture-specific
+    string comparisons and support the use of non-ASCII characters for Internet domain
+    names
+  package_url: https://www.nuget.org/System.Globalization.Extensions
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13242/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.IO
+  description: Provides base input and output
+  package_url: https://www.nuget.org/System.IO
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12901/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.IO.FileSystem
+  description: Provides types that allow reading and writing to files and types that
+    provide basic file and directory support
+  package_url: https://www.nuget.org/System.IO.FileSystem
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12931/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.IO.FileSystem.Primitives
+  description: Provides common enumerations and exceptions for path-based I/O libraries
+  package_url: https://www.nuget.org/System.IO.FileSystem.Primitives
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13111/default_623cfb3f5700f77ec1aadc91de41d13f3aa2ae3d.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Linq
+  description: Provides classes and interfaces that supports queries that use Language-Integrated
+    Query
+  package_url: https://www.nuget.org/System.Linq
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12857/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Linq.Expressions
+  description: Provides classes, interfaces and enumerations that enable language-level
+    code expressions to be represented as objects in the form of expression trees
+  package_url: https://www.nuget.org/System.Linq.Expressions
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12924/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Memory
+  description: Provides types for efficient representation and pooling of managed
+  package_url: https://www.nuget.org/System.Memory
+  version: 4.5.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12974/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Numerics.Vectors
+  description: Provides hardware-accelerated numeric types, suitable for high-performance
+    processing and graphics applications
+  package_url: https://www.nuget.org/System.Numerics.Vectors
+  version: '4.5'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13087/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.ObjectModel
+  description: Provides types and interfaces that allow the creation of observable
+    types that provide notifications to clients when changes are made to it
+  package_url: https://www.nuget.org/System.ObjectModel
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12994/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection
+  description: Provides types that retrieve information about assemblies, modules,
+    members, parameters, and other entities in managed code by examining their metadata
+  package_url: https://www.nuget.org/System.Reflection
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12874/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.Emit
+  description: Provides classes that allow a compiler or tool to emit metadata and
+    optionally generate a PE file on disk
+  package_url: https://www.nuget.org/System.Reflection.Emit
+  version: '4.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12904/default_d99202dafe7e36905074816809b8843282a82f2f.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.Emit.ILGeneration
+  description: Provides classes that allow a compiler or tool to emit Microsoft intermediate
+    language
+  package_url: https://www.nuget.org/System.Reflection.Emit.ILGeneration
+  version: '4.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13055/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.Emit.Lightweight
+  description: Provides the System.Reflection.Emit.DynamicMethod class, which represents
+    a dynamic method that can be compiled, executed, and discarded
+  package_url: https://www.nuget.org/System.Reflection.Emit.Lightweight
+  version: '4.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12926/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.Extensions
+  description: Provides custom attribute extension methods for System.Reflection types
+  package_url: https://www.nuget.org/System.Reflection.Extensions
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12900/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.Primitives
+  description: Provides common enumerations for reflection-based libraries
+  package_url: https://www.nuget.org/System.Reflection.Primitives
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13006/default_12f7186a6d439da94c192c70c3589768d943782d.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Reflection.TypeExtensions
+  description: Provides extensions methods for System.Type that are designed to be
+    source-compatible with older framework reflection-based APIs
+  package_url: https://www.nuget.org/System.Reflection.TypeExtensions
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12876/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Resources.ResourceManager
+  description: Provides classes and attributes that allow developers to create, store,
+    and manage various culture-specific resources used in an application
+  package_url: https://www.nuget.org/System.Resources.ResourceManager
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12898/default_1763b424d3c06c730dd020813f1a1a6ffb953bc2.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Runtime
+  description: Provides the fundamental primitives
+  package_url: https://www.nuget.org/System.Runtime
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12849/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Runtime.Extensions
+  description: Provides commonly-used classes for performing mathematical functions,
+    conversions, string comparisons and querying environment information
+  package_url: https://www.nuget.org/System.Runtime.Extensions
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12872/default_1763b424d3c06c730dd020813f1a1a6ffb953bc2.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Runtime.Handles
+  description: Provides base classes, including System.Runtime.InteropServices.CriticalHandle
+    and System.Runtime.InteropServices.SafeHandle, for types that represent operating
+    system handles
+  package_url: https://www.nuget.org/System.Runtime.Handles
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13103/default_9a42ff760d96a634e61dad6d7a7d76e2d1506229.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Runtime.InteropServices
+  description: Provides types that support COM interop and platform invoke services
+  package_url: https://www.nuget.org/System.Runtime.InteropServices
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12908/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Runtime.InteropServices.RuntimeInformation
+  description: Provides APIs to query about runtime and OS information
+  package_url: https://www.nuget.org/System.Runtime.InteropServices.RuntimeInformation
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12960/default_cd4457378b2b3dee674f43707df49edfbc5c04e5.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Security.AccessControl
+  description: Provides base classes that enable managing access and audit control
+    lists on securable objects
+  package_url: https://www.nuget.org/System.Security.AccessControl
+  version: '4.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13424/default_28ec91c56002f51d14f4dbb46d11dcb2fb54bb56.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Security.Principal.Windows
+  description: Provides classes for retrieving the current Windows user and for interacting
+    with Windows users and groups
+  package_url: https://www.nuget.org/System.Security.Principal.Windows
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13048/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Text.Encoding
+  description: Provides base abstract encoding classes for converting blocks of characters
+    to and from blocks of bytes
+  package_url: https://www.nuget.org/System.Text.Encoding
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12933/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Text.Encoding.Extensions
+  description: Provides support for specific encodings, including ASCII, UTF-7, UTF-8,
+    UTF-16, and UTF-32
+  package_url: https://www.nuget.org/System.Text.Encoding.Extensions
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12973/default_3bbc310dbe28a83b0e799743dc3f0afaa77665c9.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Text.RegularExpressions
+  description: Provides the System.Text.RegularExpressions.Regex class, an implementation
+    of a regular expression engine
+  package_url: https://www.nuget.org/System.Text.RegularExpressions
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12916/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Threading
+  description: Provides the fundamental synchronization primitives, including System.Threading.Monitor
+    and System.Threading.Mutex, that are required when writing asynchronous code
+  package_url: https://www.nuget.org/System.Threading
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12861/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Threading.Tasks
+  description: Provides types that simplify the work of writing concurrent and asynchronous
+    code
+  package_url: https://www.nuget.org/System.Threading.Tasks
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12899/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Threading.Tasks.Extensions
+  description: Provides additional types that simplify the work of writing concurrent
+    and asynchronous code
+  package_url: https://www.nuget.org/System.Threading.Tasks.Extensions
+  version: 4.5.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12998/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Threading.Thread
+  description: Provides the System.Threading.Thread class, which allows developers
+    to create and control a thread, set its priority, and get its state
+  package_url: https://www.nuget.org/System.Threading.Thread
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12912/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Threading.ThreadPool
+  description: Provides the System.Threading.ThreadPool class
+  package_url: https://www.nuget.org/System.Threading.ThreadPool
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13082/default_a420a6b9076a7e051ae42f91031e323b7fdb478d.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Xml.ReaderWriter
+  description: Provides provides a fast, non-cached, forward-only way to read and
+    write Extensible Markup Language
+  package_url: https://www.nuget.org/System.Xml.ReaderWriter
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12962/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: System.Xml.XmlDocument
+  description: Provides an older in-memory Extensible Markup Language
+  package_url: https://www.nuget.org/System.Xml.XmlDocument
+  version: '4.3'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12972/default_e02156d6ec171e5af5c76a9ed213ad4b70bd92db.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: runtime.native.System
+  description: Internal implementation package not meant for direct consumption
+  package_url: https://www.nuget.org/runtime.native.System
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13600/default_ad53a1d90f939c6d26a10480ec7bc2ab9ec96ce3.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit
+  description: XUnit.net is a developer testing framework, built to support Test Driven
+    Development, with a design goal of extreme simplicity and alignment with framework
+    features
+  package_url: https://www.nuget.org/xunit
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12950/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.abstractions
+  description: Common abstractions used to exchange information between xUnit.net
+    and version-independent runners
+  package_url: https://www.nuget.org/xunit.abstractions
+  version: 2.0.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13312/default_51dc9af41ee0a21e27551191d6c835184da1c0d8.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.assert
+  description: Includes the assertion library from xUnit.net
+  package_url: https://www.nuget.org/xunit.assert
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13418/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.core
+  description: Includes the libraries for writing unit tests with xUnit.net
+  package_url: https://www.nuget.org/xunit.core
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13365/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.extensibility.core
+  description: Includes xunit.core.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.core
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13436/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.extensibility.execution
+  description: Includes xunit.execution.*.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.execution
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13498/default_83bd69dd2d30bd3eae917c5ac8376fd500016904.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
+- name: xunit.runner.console
+  description: Console runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.console
+  version: 2.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14627/default_dface933b5d8f015d323c0d4d738f7853715afbe.png
+  detection_source_url: https://github.com/dot-net-org/Cake.Paket/blob/master/paket.lock
+  detection_source: paket.lock
+  last_updated_by: Marcin Śmiałek
+  last_updated_on: 2019-08-27 15:48:06.000000000 Z
